@@ -6,6 +6,7 @@ const sidebar :DefaultTheme.Config["sidebar"] = generateSidebar(path.resolve(__d
 
 
 export default defineConfig({
+  base: '/fe/',
   title: "FE Record",
   description: "become better and better",
   srcDir: './src',
